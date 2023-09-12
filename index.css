@@ -19,7 +19,8 @@ background: linear-gradient(173deg, rgba(64,58,60,1) 0%, rgba(22,16,15,1) 97%);
     /* background-color: var(--color4); */
 }
 .headSec1-l{
-    margin: 0rem 0 0 25rem;
+    margin: 10rem 0 0 25rem;
+    /* text-align: center; */
     padding: 12rem 0 6rem 0;
 }
 .section2-abt {
@@ -40,12 +41,20 @@ background: linear-gradient(173deg, rgba(64,58,60,1) 0%, rgba(22,16,15,1) 97%);
     /* font-weight: 800; */
     margin: 1.1rem 0 1.1rem 0;
 }
-.sec1-r-img{
+/* .sec1-r-img{
     position: absolute;
     top: 2rem;
     left: 70rem;
     height: 40rem;
     width: 30rem;
+    mix-blend-mode: lighten;
+} */
+.icon3d{
+    position: absolute;
+    top: 20rem;
+    left: 60rem;
+    height: 10rem;
+    width: 20rem;
     mix-blend-mode: lighten;
 }
 .down-link{
