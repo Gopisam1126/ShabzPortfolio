@@ -1,0 +1,176 @@
+:root{
+    --color1: #7b2cbf;
+    --color2: #9d4edd;
+    --color3: #c77dff;
+    --color4: #2d2d2d;
+    --color5: #d2d2d2;
+    /* background: rgb(0,0,0);
+background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(60,60,60,1) 35%, rgba(159,159,159,1) 100%); */
+background: rgb(64,58,60);
+background: linear-gradient(173deg, rgba(64,58,60,1) 0%, rgba(22,16,15,1) 97%);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+.section-1-main{
+    /* background-color: var(--color4); */
+}
+.headSec1-l{
+    margin: 0rem 0 0 25rem;
+    padding: 12rem 0 6rem 0;
+}
+.section2-abt {
+    margin: 4rem 0 0 12rem;
+}
+.logo{
+    margin: 0rem 0 3rem 0rem;
+    font-size: 1.7rem;
+    color: var(--color5);
+}
+.nameHead{
+    font-size: 1.2rem;
+    color: var(--color5);
+}
+.professionHead{
+    color: var(--color1);
+    font-size: 2.8rem;
+    /* font-weight: 800; */
+    margin: 1.1rem 0 1.1rem 0;
+}
+.sec1-r-img{
+    position: absolute;
+    top: 2rem;
+    left: 70rem;
+    height: 40rem;
+    width: 30rem;
+    mix-blend-mode: lighten;
+}
+.down-link{
+    color: var(--color5);
+}
+.down-arrow{
+    position: absolute;
+    left: 50%;
+    top: 40rem;
+    transform: translate(-50%);
+    /* transition: ; */
+}
+.headLinks{
+    display: flex;
+    margin: 4rem 0 0 0;
+}
+.moreAbtLink{
+    text-decoration: none;
+    color: #fff;
+}
+.moreAbtMe{
+    background-color: var(--color3);
+    width: 12rem;
+    padding-top: 0.9rem;
+    text-align: center;
+    height: 3rem;
+    font-size: 0.8rem;
+}
+.hireMeLink{
+    text-decoration: none;
+    color: #22333b;
+}
+.hireMe{
+    background-color: #f2f4f3;
+    margin: 0 0 0 0rem;
+    width: 12rem;
+    padding-top: 0.9rem;
+    text-align: center;
+    height: 3rem;
+    font-size: 0.9rem;
+}
+/* .headSec1-r{
+    
+} */
+.abtme{
+    text-align: center;
+    transform: translate(-5%);
+    margin: 20rem 0 0 0;
+}
+.skills-section{
+    margin-left: 13rem;
+}
+.skillsSubHead{
+    margin: 0 0 0rem 0rem;
+    font-size: 0.9rem;
+    color: var(--color1);
+}
+.skillMainHead{
+    font-size: 2.3rem;
+    color: var(--color5);
+}
+.skills{
+    /* display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 4rem; */
+    margin-top: 5rem;
+}
+.cmp-app{
+    color: var(--color5);
+}
+.progressBar{
+    background-color: var(--color5);
+    width: 25rem;
+    margin-top: 1.1rem;
+}
+.progress-1, .progress-2, .progress-3, .progress-4{
+    background-color: #c77dff;
+}
+.progress-1{
+    width: 23rem;
+}
+.progress-2{
+    width: 18rem;
+}
+.progress-3{
+    width: 15rem;
+}
+.progress-4{
+    width: 13.5rem;
+}
+.level-1, .level-2, .level-3, .level-3, .level-4{
+    color: #fff;
+    padding-top: 0.4rem;
+}
+.level-1{
+    margin-left: 19rem;
+}
+.level-2{
+    margin-left: 15rem;
+}
+.level-3{
+    margin-left: 12rem;
+}
+.level-4{
+    margin-left: 10.5rem;
+}
+.skill-2, .skill-3, .skill-4 {
+    margin: 2rem 0 0 0 !important;
+}
+.skills-section{
+    display: flex;
+}
+.skill-section-2{
+    margin: 0rem 0 0 23rem;
+}
+.aboutme{
+    color: var(--color5);
+    text-align: center;
+    margin: 8rem 10rem 3rem 10rem;
+}
+.abtme-head{
+    font-size: 2.3rem;
+    margin-bottom: 2rem;
+}
+.aboutme-para{
+    padding: 0 2.5rem 0 2.5rem;
+    font-size: 1.5rem;
+}
